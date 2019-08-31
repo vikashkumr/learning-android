@@ -1,4 +1,4 @@
-package com.example.fragmenttalkactivity;
+package com.example.fragmetcommunication;
 
 
 import android.app.Activity;
@@ -18,34 +18,34 @@ import android.widget.EditText;
  * A simple {@link Fragment} subclass.
  */
 public class MessageFragment extends Fragment {
-    EditText editText;
-    Button button;
 
-    OnMessageReadListener messageReadListener;
+    private Button button;
+    private EditText editText;
+    OnMessageSendListener messageSendListener;
+
+    public interface OnMessageSendListener{
+        public void onMessageSend(String message);
+    }
+
     public MessageFragment() {
         // Required empty public constructor
     }
 
-    public interface OnMessageReadListener{
-         void onMessageRead(String message);
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_message, container, false);
-
-        editText = view.findViewById(R.id.txt_message);
         button = view.findViewById(R.id.bn);
-        button.setOnClickListener(new View.OnClickListener() {
+        editText = view.findViewById(R.id.txt_message);
+        view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String message = editText.getText().toString();
-                messageReadListener.onMessageRead(message);
+                messageSendListener.onMessageSend(message);
             }
         });
-
 
         return view;
     }
@@ -53,13 +53,21 @@ public class MessageFragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
+
         Activity activity = (Activity) context;
 
         try{
-            messageReadListener = (OnMessageReadListener) activity;
+            messageSendListener = (OnMessageSendListener) activity;
         }
         catch (ClassCastException e){
-            throw new ClassCastException(activity.toString()+"must override onMessageRead...");
+            throw new ClassCastException(activity.toString()+"must override method...");
         }
+
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        editText.setText("");
     }
 }
