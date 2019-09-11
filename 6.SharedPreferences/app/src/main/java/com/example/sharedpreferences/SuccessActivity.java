@@ -22,6 +22,6 @@ public class SuccessActivity extends AppCompatActivity {
     public void userLogout(View view) {
         preferenceConfig.writeLoginStatus(false);
         startActivity(new Intent(this,MainActivity.class));
-        finish();;
+        finish();
     }
 }
