@@ -2,7 +2,228 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ab9f89f-5058-4d0d-9229-58d4b78e3b15" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/.idea/render.experimental.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/androidTest/java/com/example/recyclerexample1/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/java/com/example/recyclerexample1/DisplayActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/java/com/example/recyclerexample1/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/java/com/example/recyclerexample1/RecyclerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/drawable-v24/pic1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/drawable-v24/pic2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/drawable-v24/pic3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/drawable-v24/pic4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/drawable-v24/pic5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/drawable-v24/pic6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/layout/activity_display.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/layout/album_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/app/src/test/java/com/example/recyclerexample1/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.RecyclerExample1/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/.idea/render.experimental.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/androidTest/java/com/example/appbarexample/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/java/com/example/appbarexample/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/layout/toolbar_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/menu/app_bar_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/mipmap-hdpi/ic_share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/app/src/test/java/com/example/appbarexample/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.AppBarExample/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/.idea/render.experimental.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/androidTest/java/com/example/searchactionview/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/java/com/example/searchactionview/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/layout/toolbar_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/menu/toolbar_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/mipmap-hdpi/icon_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/app/src/test/java/com/example/searchactionview/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.SearchActionView/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/.idea/render.experimental.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/androidTest/java/com/example/notificationexample/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/java/com/example/notificationexample/LandingActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/java/com/example/notificationexample/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/drawable/ic_sms.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/layout/activity_landing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/app/src/test/java/com/example/notificationexample/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.NotificationExample/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.FragmentRuntimeExample/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7.SQLiteExample/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8.RoomExample/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/.idea/render.experimental.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/androidTest/java/com/example/recylerexample/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/java/com/example/recylerexample/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/java/com/example/recylerexample/RecyclerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/layout/text_view_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/app/src/test/java/com/example/recylerexample/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9.RecylerExample/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.SQLiteExample/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/7.SQLiteExample/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +249,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
@@ -41,6 +261,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -93,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567285435061</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="SQLite CRUD operation learnt">
+      <created>1568181195231</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568181195237</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -120,6 +348,7 @@
     <MESSAGE value="three project added" />
     <MESSAGE value="Fragment Talk Activity" />
     <MESSAGE value="1.Fragment talk fragment&#10;2.Shared preferences" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.Fragment talk fragment&#10;2.Shared preferences" />
+    <MESSAGE value="SQLite CRUD operation learnt" />
+    <option name="LAST_COMMIT_MESSAGE" value="SQLite CRUD operation learnt" />
   </component>
 </project>

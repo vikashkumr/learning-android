@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">RecylerExample</string>
+    <string-array name="android_version">
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+        <item>Froyo</item>
+        <item>Gingerbread</item>
+        <item>HoneyComb</item>
+        <item>Ice Cream sandwich</item>
+        <item>Jelly Bean</item>
+        <item>KitKat</item>
+        <item>Lollipop</item>
+        <item>Marshmallow</item>
+        <item>Nougat</item>
+        <item>Oreo</item>
+        <item>Android p</item>
+    </string-array>
+</resources>
